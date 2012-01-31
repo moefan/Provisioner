@@ -39,6 +39,14 @@
           "description": "",
           "changelog": "",
           "last_modified": null
+        },
+        {
+          "id": "5",
+          "name": "HandyTone [HT502]",
+          "directory": "ht502",
+          "description": "",
+          "changelog": "",
+          "last_modified": null
         }
       ],
       "oui_list": [

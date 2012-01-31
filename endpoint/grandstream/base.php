@@ -74,7 +74,7 @@ class endpoint_grandstream_base extends endpoint_base {
     function generate_file($file, $extradata, $ignoredynamicmapping=FALSE) {
         $data = parent::generate_file($file, $extradata, $ignoredynamicmapping);
         if ($ignoredynamicmapping == FALSE) {
-            $data = array_values($this->create_encrypted_file(array($this->mac . ".cfg" => $data)));
+            $data = array_values($this->create_encrypted_file(array("cfg" . $this->mac => $data)));
             $data = $data[0];
         }
         return $data;

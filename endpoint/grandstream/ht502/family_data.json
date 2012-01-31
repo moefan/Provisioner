@@ -1,0 +1,25 @@
+{
+  "data":{
+    "name":"HandyTone HandyTone [HT502]",
+    "id":"3",
+    "directory":"ht502",
+    "firmware_ver":"",
+    "firmware_pkg":[
+      
+    ],
+    "description":"",
+    "configuration_files":"$mac.cfg",
+    "changelog":"",
+    "model_list":[
+      {
+        "model":"HT502",
+        "lines":"2",
+        "id":"1",
+        "template_data":[
+          "template_data.json"
+        ]
+      }
+    ],
+    "firmware_md5sum":""
+  }
+}
